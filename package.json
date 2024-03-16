@@ -1,6 +1,6 @@
 {
   "name": "use-cookiescript-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hook for install banner from site https://cookie-script.com",
   "main": "dist/index.js",
   "files": [
