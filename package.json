@@ -24,7 +24,7 @@
     "version": "npm publish"
   },
   "author": "Cookie-Script",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.8"
   },
