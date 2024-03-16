@@ -1,0 +1,37 @@
+{
+  "name": "use-cookiescript-hook",
+  "version": "1.0.0",
+  "description": "React Hook for install banner from site https://cookie-script.com",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cookie-Script/use-cookiescript-hook"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "preversion": "npm run build",
+    "version": "npm publish"
+  },
+  "author": "Cookie-Script",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">= 16.8"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.0",
+    "react": "^16.8.0",
+    "typescript": "^5.4.2",
+    "rimraf": "^5.0.5"
+  }
+}
