@@ -1,6 +1,6 @@
 <div align="center">
     <h1>useCookieScript</h1>
-    <p>npm package containing cookie script hook for your React project.</p>
+    <p>npm package containing <a href="https://cookie-script.com">cookie script</a> hook for your React project.</p>
 	<br/>
 </div>
 <br/>
